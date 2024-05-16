@@ -3,6 +3,8 @@
 @import 'main';
 
 body {
+    font-family: "Mulish", sans-serif;
     background-color: white;
-    font-family: $main-font;
+    max-width: 1360px;
+   margin: auto;
 }
