@@ -1,15 +1,22 @@
+
+  
+  $main-color: #111111;
+  $second-color: #4A4FF2;
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-weight: 400;
-    line-height: 27px;
-    font-family: "Mulish", sans-serif;
+    font-family: fonts.$main-font;
     color: $main-color;
 }
 
-
+p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
 
 .container {
     max-width: 1110px;

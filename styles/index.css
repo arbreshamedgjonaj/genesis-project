@@ -1,23 +1,15 @@
-.mulish {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-
 header {
+  height: 10vh;
   margin: 125px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1109px;
-  font-size: 23px;
+  max-height: 23px;
 }
 
 .logo {
   margin-left: 30px;
-  align-items: center;
-  display: flex;
 }
 
 .nav__link {
@@ -28,23 +20,30 @@ header {
   font-weight: bold;
 }
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1110px;
-  width: 100%;
-  margin: auto;
-  /*margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 20px;*/
-  padding: 15px;
-  border-color: white;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 body {
   font-family: "Mulish", sans-serif;
   background-color: white;
-  max-width: 1360px;
   margin: auto;
 }/*# sourceMappingURL=index.css.map */
