@@ -5,3 +5,17 @@
     font-style: normal;
   }
   $main-font: "Mulish", sans-serif;
+  
+  $main-color: #111111;
+  $second-color: #4A4FF2;
+
+  %italic{ 
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  %title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+}
