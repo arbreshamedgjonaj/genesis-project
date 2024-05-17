@@ -6,23 +6,18 @@
 }
 
 header {
-  height: 10vh;
   margin: 125px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1109px;
-  max-height: 23px;
+  font-size: 23px;
 }
 
 .logo {
   margin-left: 30px;
+  align-items: center;
+  display: flex;
 }
 
 .nav__link {
@@ -34,15 +29,9 @@ header {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   max-width: 1110px;
   width: 100%;
   margin: auto;
@@ -58,4 +47,4 @@ body {
   background-color: white;
   max-width: 1360px;
   margin: auto;
-}
+}/*# sourceMappingURL=index.css.map */

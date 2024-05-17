@@ -1,15 +1,17 @@
 header {
-    height: 10vh;
+    // height: 10vh;
     margin: 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1109px;
-    max-height: 23px;
+    font-size: 23px;
   
 }
 .logo {
     margin-left: 30px;
+    align-items: center;
+    display: flex;
 }
 .nav__link{
     margin-right: 30px;
@@ -17,7 +19,6 @@ header {
     text-decoration: none;
     font-family: "Mulish", sans-serif;
     font-weight: bold;
- 
 }
 
 
