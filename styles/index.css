@@ -20,7 +20,7 @@ header {
   font-weight: bold;
 }
 
-body {
+main {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -31,14 +31,10 @@ body {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 26px;
   text-align: left;
   color: #4A4FF2;
-}
-
-h1 {
-  font-size: 40px;
 }
 
 .container {
@@ -46,6 +42,10 @@ h1 {
   max-width: 1110px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.container h1 {
+  font-size: 40px;
 }
 
 .container__section {
@@ -66,6 +66,8 @@ h1 {
   position: relative;
   right: 58px;
   bottom: 20px;
+  font-style: italic;
+  font-size: 18px;
 }
 .container__section__word {
   color: #4A4FF2;
@@ -80,5 +82,11 @@ h1 {
 body {
   font-family: "Mulish", sans-serif;
   background-color: white;
-  margin: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  color: #111111;
 }/*# sourceMappingURL=index.css.map */
