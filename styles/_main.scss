@@ -1,6 +1,7 @@
 
 $main-color: #111111;
 $second-color: #4A4FF2;
+$third-color:
 
 
 
@@ -40,10 +41,7 @@ h3 {
 .container h1{
     font-size: 40px;
 }
-// .container_wrap{
-//     flex-wrap: wrap;
-    
-// }
+
 .container__section {
     width: 100%;
     display: flex;
@@ -75,16 +73,6 @@ h3 {
     left: 32px;
     
 }
-// .container_gallery{
-//     display: flex;
-//     justify-content: center;
-    
-//     width: 100%;
-//     max-width:1110px;
-//     max-height: 1960px;
-//     margin: 0 auto;
-//     padding-top: 50px;
-// }
 
 .container_grid{
     grid-gap: 15px;
