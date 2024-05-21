@@ -222,7 +222,7 @@ h3 {
   grid-column: 2/3;
 }
 
-.awards__sub {
+.awards h5 {
   font-size: 16px;
   font-weight: normal;
 }
