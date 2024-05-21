@@ -1,9 +1,6 @@
-
 $main-color: #111111;
 $second-color: #4A4FF2;
-$third-color:
-
-
+$third-color: #11111160;
 
 main {
     width: 100%;
@@ -13,12 +10,13 @@ main {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     font-family: fonts.$main-font;
     color: $main-color;
     font-family: "Mulish", sans-serif;
 }
+
 h3 {
     font-size: 22px;
     line-height: 26px;
@@ -27,18 +25,15 @@ h3 {
 }
 
 
-
 .container {
     display: flex;
-
     width: 100%;
     max-width: 1110px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 0 15px;
-  
-    
 }
-.container h1{
+
+.container h1 {
     font-size: 40px;
 }
 
@@ -48,12 +43,14 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     &__title__text {
         width: 100%;
         max-width: 635px;
         min-height: 251px;
     }
-    &__quote{
+
+    &__quote {
         display: flex;
         align-self: flex-end;
         position: relative;
@@ -61,8 +58,11 @@ h3 {
         bottom: 20px;
         font-style: italic;
         font-size: 18px;
+        color:$third-color;
+        
     }
-    &__word{
+
+    &__word {
         color: $second-color;
     }
 }
@@ -71,64 +71,103 @@ h3 {
     width: 30px;
     position: relative;
     left: 32px;
-    
+
 }
 
-.container_grid{
+.container_grid {
     grid-gap: 15px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     grid: 20px;
-    
 }
-.img1{
+
+.img1 {
     grid-row: 1/ span 7;
     grid-column: 1/ span 3;
-
 }
-.img2{
+
+.img2 {
     grid-row: 1/span 6;
     grid-column: 4/ span 3;
 }
-.img3{
+
+.img3 {
     grid-row: 1 / span 10;
     grid-column: 7 / span 3;
 }
-.img4{
+
+.img4 {
     grid-row: 8 / span 8;
     grid-column: 1 / span 3;
 }
-.img5{
+
+.img5 {
     grid-row: 7/ span 7;
     grid-column: 4/ span 3;
 }
-.img6{
+
+.img6 {
     grid-row: 11/ span 7;
     grid-column: 7/ span 3;
 }
-.img7{
+
+.img7 {
     grid-row: 16/ span 8;
-    grid-column: 1/ span 3
-    ;
+    grid-column: 1/ span 3;
 }
-.img8{
-    grid-row:14/ span 9;
+
+.img8 {
+    grid-row: 14/ span 9;
     grid-column: 4/ span 3;
 }
-.img9{
+
+.img9 {
     grid-row: 18/ span 9;
     grid-column: 7/ span 3;
 }
-.img10{
+
+.img10 {
     grid-row: 24/ span 9;
     grid-column: 1/ span 3;
 }
-.img11{
+
+.img11 {
     grid-row: 23/span 10;
     grid-column: 4/ span 3;
 }
-.img12{
+
+.img12 {
     grid-row: 27/ span 6;
     grid-column: 7/ span 3;
 }
+ .service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    &__text{
+        width: 100%;
+        max-width: 635px;
+       
+    }
+    
+    &__list{
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        column-gap: 70px;
+        row-gap: 10px;
+        text-align: left;
+        padding-top: 10px;
+        list-style-type: none;
+        color: $third-color;
+       
+    }
+}
+.service h3{
+    color: $main-color;
+    font-size: 28px;
+}
+
+ 
