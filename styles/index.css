@@ -29,7 +29,6 @@ main {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  font-weight: 400;
   font-family: "Mulish", sans-serif;
   color: #111111;
   font-family: "Mulish", sans-serif;
@@ -48,6 +47,7 @@ h3 {
   max-width: 1110px;
   margin: 50px auto;
   padding: 0 15px;
+  flex-direction: row;
 }
 
 .container h1 {
@@ -178,6 +178,59 @@ h3 {
 .service h3 {
   color: #111111;
   font-size: 28px;
+}
+
+.awards {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  grid-area: 1/4;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 40px;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.awards h3 {
+  color: #111111;
+}
+
+.awards__title {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.awards__content {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.awards__sub__secondTwo {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+
+.award__year_secondTwo {
+  grid-row: 4/5;
+  grid-column: 4/5;
+}
+
+.awards__content__secondTwo {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+
+.awards__sub {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.awards__sub_con {
+  color: rgba(17, 17, 17, 0.3764705882);
+  font-size: 16px;
+  font-weight: normal;
 }
 
 body {

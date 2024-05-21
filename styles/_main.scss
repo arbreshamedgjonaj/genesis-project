@@ -11,7 +11,7 @@ main {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-weight: 400;
+    // font-weight: 400;
     font-family: fonts.$main-font;
     color: $main-color;
     font-family: "Mulish", sans-serif;
@@ -31,6 +31,7 @@ h3 {
     max-width: 1110px;
     margin: 50px auto;
     padding: 0 15px;
+    flex-direction: row;
 }
 
 .container h1 {
@@ -58,8 +59,8 @@ h3 {
         bottom: 20px;
         font-style: italic;
         font-size: 18px;
-        color:$third-color;
-        
+        color: $third-color;
+
     }
 
     &__word {
@@ -141,19 +142,20 @@ h3 {
     grid-row: 27/ span 6;
     grid-column: 7/ span 3;
 }
- .service{
+
+.service {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 
-    &__text{
+    &__text {
         width: 100%;
         max-width: 635px;
-       
+
     }
-    
-    &__list{
+
+    &__list {
         display: grid;
         grid-template: repeat(3, 1fr) / repeat(2, 1fr);
         column-gap: 70px;
@@ -162,15 +164,65 @@ h3 {
         padding-top: 10px;
         list-style-type: none;
         color: $third-color;
-       
+
     }
 }
-.service h3{
+
+.service h3 {
     color: $main-color;
     font-size: 28px;
 }
-.award__container{
-    
+
+.awards {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    grid-area: 1/4;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 40px;
+    ;
+    gap: 20px;
+    padding-bottom: 10px;
 }
 
- 
+.awards h3 {
+    color: $main-color;
+}
+
+.awards__title {
+    grid-row: 1/ 3;
+    grid-column: 1/2;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.awards__content {
+    grid-row: 1/ 2;
+    grid-column: 2/3;
+}
+
+.awards__sub__secondTwo {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.award__year_secondTwo {
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.awards__content__secondTwo {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.awards__sub{
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+.awards__sub_con{
+    color: $third-color;
+    font-size: 16px;
+    font-weight: normal;
+}
