@@ -553,6 +553,23 @@ p {
   border-bottom: 1px solid #D8D8D8;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid__text {
+  height: 93px;
+  margin: 0 auto;
+  max-width: 1109;
+  padding: 30px 0;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   margin: 0;
   width: 100%;
