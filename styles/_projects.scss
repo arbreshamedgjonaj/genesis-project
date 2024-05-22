@@ -1,3 +1,25 @@
+.container__pro__section{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__pro__section__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container__pro__section__text h1{
+        width: 100%;
+        max-width: 495px;
+        min-height: 130px;
+        line-height: 55px;
+        font-size: 40px;
+        font-weight: 700;
+}
+
 .details{
     width: 100%;
     max-width: 350px;

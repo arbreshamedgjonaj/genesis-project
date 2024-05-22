@@ -1,22 +1,30 @@
-.container {
+.container__contact {
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1110px;
+    margin: 50px auto;
+    padding: 0 15px;
+   
     &__section{
     max-width: 475px;
     min-height: 291px;
     }
 }
+.container__contact h1{
+    font-size: 40px;
+    font-weight: 700;
+}
 .contact {
-    
+    padding-left: 25px;
     box-sizing: border-box;
     width: 100%;
     max-width: 475px;
     min-height: 291px;
 }
 .contact__form-input {
+    
     font-size:16px;
     color: #11111180;
     font-weight: bold;
