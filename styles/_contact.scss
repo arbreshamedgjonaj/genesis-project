@@ -1,0 +1,46 @@
+.container {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    &__section{
+    max-width: 475px;
+    min-height: 291px;
+    }
+}
+.contact {
+    
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 475px;
+    min-height: 291px;
+}
+.contact__form-input {
+    font-size:16px;
+    color: #11111180;
+    font-weight: bold;
+    width: 475px;
+    height: 37px;
+    margin-bottom: 46px;
+    border: none;
+    border-bottom: 1px solid #979797;
+    resize: none;
+    
+}
+
+button {
+font-family: "Mulish", sans-serif;
+font-weight: 700;
+margin-top: 30px;
+padding: 15px;
+text-align: center;
+color: #ffff;
+background-color: $second-color;
+border: none;
+width: 125px;
+cursor: pointer;
+}
+button:hover{
+    border: 2px solid rgb(147, 165, 224);
+}

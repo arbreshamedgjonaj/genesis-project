@@ -70,7 +70,6 @@ p {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(32, 1fr);
-  grid: 20px;
 }
 
 .container_grid img {
@@ -333,7 +332,6 @@ p {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(32, 1fr);
-  grid: 20px;
 }
 
 .container_grid img {
@@ -568,6 +566,52 @@ p {
 .project-grid {
   display: flex;
   justify-content: space-between;
+}
+
+.container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.container__section {
+  max-width: 475px;
+  min-height: 291px;
+}
+
+.contact {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 475px;
+  min-height: 291px;
+}
+
+.contact__form-input {
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.5019607843);
+  font-weight: bold;
+  width: 475px;
+  height: 37px;
+  margin-bottom: 46px;
+  border: none;
+  border-bottom: 1px solid #979797;
+  resize: none;
+}
+
+button {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #4A4FF2;
+  border: none;
+  width: 125px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid rgb(147, 165, 224);
 }
 
 body {
