@@ -1,7 +1,4 @@
-@import 'main';
-
-
-.header {
+.footer {
     width: 100%;
     min-height: 23px;
     max-width: 1109px;
@@ -13,12 +10,10 @@
     align-items: center;
     font-family:"Mulish", sans-serif;
 }
-.nav{
+.navFooter{
     max-width: 1109px;
-   
-&__list {
-    
-    // padding: 50px;
+&__list {    
+    padding: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -28,7 +23,7 @@
 &__item {
     list-style: none;
     padding-left: 40px;
-    padding-right: 30px;
+    // padding-right: 45px;
 }
 
 &__link {
@@ -44,4 +39,3 @@
     height: 19.34px;
     margin-right: auto;
 }
-

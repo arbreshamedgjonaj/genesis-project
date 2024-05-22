@@ -1,8 +1,6 @@
 main {
   width: 100%;
   margin: 0 auto;
-  width: 100%;
-  height: 100vh;
   box-sizing: border-box;
   padding: 0;
   font-size: 18px;
@@ -119,6 +117,8 @@ h3 {
 .img9 {
   grid-row: 18/span 9;
   grid-column: 7/span 3;
+  width: 100%;
+  height: 100%;
 }
 
 .img10 {
@@ -227,22 +227,23 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-family: "Mulish", sans-serif;
 }
 
+.nav {
+  max-width: 1109px;
+}
 .nav__list {
-  padding: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex: row;
 }
-
 .nav__item {
   list-style: none;
   padding-left: 40px;
-  padding-right: 45px;
+  padding-right: 30px;
 }
-
 .nav__link {
   text-decoration: none;
   font-size: 18px;
@@ -259,8 +260,6 @@ h3 {
 main {
   width: 100%;
   margin: 0 auto;
-  width: 100%;
-  height: 100vh;
   box-sizing: border-box;
   padding: 0;
   font-size: 18px;
@@ -377,6 +376,8 @@ h3 {
 .img9 {
   grid-row: 18/span 9;
   grid-column: 7/span 3;
+  width: 100%;
+  height: 100%;
 }
 
 .img10 {
@@ -473,6 +474,46 @@ h3 {
   color: rgba(17, 17, 17, 0.3764705882);
   font-size: 16px;
   font-weight: normal;
+}
+
+.footer {
+  width: 100%;
+  min-height: 23px;
+  max-width: 1109px;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+}
+
+.navFooter {
+  max-width: 1109px;
+}
+.navFooter__list {
+  padding: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: row;
+}
+.navFooter__item {
+  list-style: none;
+  padding-left: 40px;
+}
+.navFooter__link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.logo {
+  width: 90.13px;
+  height: 19.34px;
+  margin-right: auto;
 }
 
 body {

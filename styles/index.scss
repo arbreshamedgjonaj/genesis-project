@@ -1,6 +1,7 @@
 @use './fonts';
 @import 'header';
 @import 'main';
+@import 'footer';
 
 body {
     margin: 0;
@@ -8,6 +9,7 @@ body {
     height: 100vh;
     background-color: white;
     margin: 0;
+    
     
 }
 
